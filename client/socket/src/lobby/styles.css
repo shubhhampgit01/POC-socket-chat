@@ -1,0 +1,131 @@
+.name_entry_container {
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+
+  margin-bottom: 10px;
+}
+
+.name_entry_container >h2{
+  margin-bottom: 30px;
+}
+
+.name_entry_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name_entry_form > div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 16px;
+  
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.joinButton {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.or_separator {
+  text-align: center;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.socket_id_info {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #555;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.socket_id_info > div {
+  display: flex;
+  gap: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 8px;
+  border-radius: 8px;
+  position: relative;
+  align-items: center;
+}
+
+.copied_message{
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+}
+
+.copy_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.copy_button:hover{
+  transform: scale(0.85);
+}
+
+/* .socket-id-info  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+.socket_id_info span {
+  font-weight: bold;
+}
+
+.single_input {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.help_button{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.tips_section {
+  margin-top: 20px;
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
